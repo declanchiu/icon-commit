@@ -1,12 +1,27 @@
 {
   "name": "icon-commit",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "解决每次从 Typora 复制要使用的个性化 commit 语句，通过脚本输出语句可供选择，或者添加对应后缀来完成commit语句输出。🕹",
+  "keywords": [
+    "commit",
+    "git commit",
+    "icon commit"
+  ],
+  "bin": {
+    "iconc": "lib/bin.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "scripts": {
+    "dev": "tsc -w",
+    "build": "tsc"
+  },
+  "author": "PlayGuitar-CoderQ",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.6.3",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "commander": "^4.1.1"
+  }
 }

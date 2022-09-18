@@ -22,7 +22,7 @@ log.success = print.bind(null, 'green');
 log.chalk = chalk;
 
 /**
- * Print divider
+ * 打印分割线
  * @param {'info' | 'warn' | 'success' | 'error'} level
  */
 log.divider = (level = 'info') => {

@@ -13,6 +13,7 @@ export enum CommitTypeEnum {
   init = 'init',
   depend = 'depend',
   config = 'config',
+  version = 'version',
 }
 
 export const Commit_Icons = {
@@ -30,6 +31,7 @@ export const Commit_Icons = {
   [CommitTypeEnum.init]: '🎉',
   [CommitTypeEnum.depend]: '🧱',
   [CommitTypeEnum.config]: '🔧',
+  [CommitTypeEnum.version]: '🎯',
 }
 
 export const Tag_Icon = '🔖';

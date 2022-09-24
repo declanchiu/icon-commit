@@ -76,5 +76,10 @@ export const COMMIT_CONFIG: CommitConfig[] = [
     commandName: CommitTypeEnum.config,
     description: '用于任何一切和项目配置有关的变动（ci 配置除外）',
     icon: Commit_Icons[CommitTypeEnum.config]
+  },
+  {
+    commandName: CommitTypeEnum.version,
+    description: '用于提交一个版本的更新标记',
+    icon: Commit_Icons[CommitTypeEnum.version]
   }
 ]

@@ -12,7 +12,7 @@ export enum CommitTypeEnum {
   hotfix = 'hotfix',
   init = 'init',
   depend = 'depend',
-  config = 'config'
+  config = 'config',
 }
 
 export const Commit_Icons = {
@@ -31,3 +31,5 @@ export const Commit_Icons = {
   [CommitTypeEnum.depend]: '🧱',
   [CommitTypeEnum.config]: '🔧',
 }
+
+export const Tag_Icon = '🔖';

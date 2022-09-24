@@ -1,9 +1,9 @@
 import { exec } from 'shelljs';
-import { CommitTypeEnum, Commit_Icons } from './config/commitType';
-
+import { CommitTypeEnum, Commit_Icons, Tag_Icon } from './config/commitType';
 interface BaseArg {
-  commitType: CommitTypeEnum,
+  commitType?: CommitTypeEnum,
   message: string
+  versionName?: string
 }
 interface CommitAllProcessArg extends BaseArg {
   originName: string;
@@ -22,4 +22,17 @@ export const onGitCommitAllProcess = async (arg: CommitAllProcessArg) => {
   exec(`git add .`, {async:true});
   onGitCommit({commitType, message});
   exec(`git push ${originName} ${branch}`);
+}
+
+export const onGitCommitTag = (arg: BaseArg) => {
+  const { versionName, message } = arg;
+
+  exec(`git tag -a ${versionName} -m '${Tag_Icon} ${message}'`);
+}
+
+export const onGitCommitAllTag = (arg: BaseArg) => {
+  const { versionName, message } = arg;
+  onGitCommitTag({versionName, message});
+  exec('git tag --list');
+  exec(`git push origin --tags`);
 }

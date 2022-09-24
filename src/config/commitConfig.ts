@@ -66,5 +66,10 @@ export const COMMIT_CONFIG: CommitConfig[] = [
     commandName: CommitTypeEnum.init,
     description: '用于初始化项目的提交',
     icon: Commit_Icons[CommitTypeEnum.init]
+  },
+  {
+    commandName: CommitTypeEnum.depend,
+    description: '用于项目依赖任何变动的提交',
+    icon: Commit_Icons[CommitTypeEnum.depend]
   }
 ]

@@ -15,14 +15,14 @@ program
   .command("r <commitType> <message>")
   .description(locale.CMD_DES_R)
   .action((commitType, message) => {
-    onGitCommit(commitType, message);
+    onGitCommit({commitType, message});
   })
 
 program
-  .command("p <commitType> <message>")
+  .command("p <originName> <branch> <commitType> <message>")
   .description(locale.CMD_DES_P)
-  .action((commitType, message) => {
-    onGitCommitAllProcess(commitType, message);
+  .action((originName, branch, commitType, message) => {
+    onGitCommitAllProcess({originName, branch, commitType, message});
   })
 
 program.parse(process.argv);

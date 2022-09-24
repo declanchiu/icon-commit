@@ -32,6 +32,6 @@ export const Commit_Icons = {
   [CommitTypeEnum.depend]: '🧱',
   [CommitTypeEnum.config]: '🔧',
   [CommitTypeEnum.version]: '🎯',
-}
+};
 
 export const Tag_Icon = '🔖';

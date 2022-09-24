@@ -82,4 +82,4 @@ export const COMMIT_CONFIG: CommitConfig[] = [
     description: '用于提交一个版本的更新标记',
     icon: Commit_Icons[CommitTypeEnum.version]
   }
-]
+];

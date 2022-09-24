@@ -12,6 +12,7 @@ export enum CommitTypeEnum {
   hotfix = 'hotfix',
   init = 'init',
   depend = 'depend',
+  config = 'config'
 }
 
 export const Commit_Icons = {
@@ -28,4 +29,5 @@ export const Commit_Icons = {
   [CommitTypeEnum.hotfix]: '🔥',
   [CommitTypeEnum.init]: '🎉',
   [CommitTypeEnum.depend]: '🧱',
+  [CommitTypeEnum.config]: '🔧',
 }

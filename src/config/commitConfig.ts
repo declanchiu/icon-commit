@@ -71,5 +71,10 @@ export const COMMIT_CONFIG: CommitConfig[] = [
     commandName: CommitTypeEnum.depend,
     description: '用于项目依赖任何变动的提交',
     icon: Commit_Icons[CommitTypeEnum.depend]
+  },
+  {
+    commandName: CommitTypeEnum.config,
+    description: '用于任何一切和项目配置有关的变动（ci 配置除外）',
+    icon: Commit_Icons[CommitTypeEnum.config]
   }
 ]

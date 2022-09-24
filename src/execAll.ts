@@ -19,7 +19,7 @@ export const onGitCommit = (arg: BaseArg) => {
 export const onGitCommitAllProcess = (arg: CommitAllProcessArg) => {
   const { originName = 'origin', branch, commitType, message } = arg;
 
-  exec(`git add .`, {async:true});
+  exec(`git add .`, { async: true });
   onGitCommit({commitType, message});
   exec(`git push ${originName} ${branch}`);
 };

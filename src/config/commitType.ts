@@ -10,6 +10,7 @@ export enum CommitTypeEnum {
   structure = 'structure',
   test = 'test',
   hotfix = 'hotfix',
+  init = 'init',
 }
 
 export const Commit_Icons = {
@@ -24,4 +25,5 @@ export const Commit_Icons = {
   [CommitTypeEnum.structure]: '🏗️',
   [CommitTypeEnum.test]: '🧪',
   [CommitTypeEnum.hotfix]: '🔥',
+  [CommitTypeEnum.init]: '🎉',
 }

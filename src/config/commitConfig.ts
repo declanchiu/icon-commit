@@ -61,5 +61,10 @@ export const COMMIT_CONFIG: CommitConfig[] = [
     commandName: CommitTypeEnum.hotfix,
     description: '用于生产版本的紧急修复提交',
     icon: Commit_Icons[CommitTypeEnum.hotfix]
+  },
+  {
+    commandName: CommitTypeEnum.init,
+    description: '用于初始化项目的提交',
+    icon: Commit_Icons[CommitTypeEnum.init]
   }
 ]

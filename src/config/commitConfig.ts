@@ -81,5 +81,10 @@ export const COMMIT_CONFIG: CommitConfig[] = [
     commandName: CommitTypeEnum.version,
     description: '用于提交一个版本的更新标记',
     icon: Commit_Icons[CommitTypeEnum.version]
+  },
+  {
+    commandName: CommitTypeEnum.type,
+    description: '用于增删改查任何关于任何类型的提交',
+    icon: Commit_Icons[CommitTypeEnum.type]
   }
 ];

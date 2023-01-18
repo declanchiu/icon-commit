@@ -1,5 +1,5 @@
 <div align="center"> 
-  <img alt="guitar" width="100" src="https://guitar-1305021979.cos.ap-guangzhou.myqcloud.com/uPic/commit-git.png">
+  <img alt="guitar" width="100" src="https://raw.githubusercontent.com/PlayGuitar-CoderQ-Sub/figure-bed/main/uPic/a6eaad36-e316-4542-ae6d-fef9b46f1659.png">
   <br> <br>
 
   <h1> 🔋 - Icon - Commit - ⏱ </h1>
@@ -15,10 +15,6 @@
 而之前我是完全使用 Typora 来保存这些携带 emoji 的提交方法来复制粘贴使用并且我每次离开了我自己的电脑在公司或者回家之后编写自己的代码提交的时候我往往需要凭记忆去写我自己特色的 commit ，这个就是当前 cli 诞生的必要性。
  
 <br>
-
-<img alt="演示图" src="https://guitar-1305021979.cos.ap-guangzhou.myqcloud.com/uPic/ygxOVx.png">
-
- <br>
 
  # 🪐 怎么使用这个 cli
 

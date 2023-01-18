@@ -1,5 +1,5 @@
 {
-  "name": "icon-commit",
+  "name": "icon-commit-new",
   "version": "1.1.1",
   "description": "解决每次从 Typora 复制要使用的个性化 commit 语句，通过脚本输出语句可供选择，或者添加对应后缀来完成commit语句输出。🕹",
   "keywords": [
